@@ -1,0 +1,12 @@
+{
+  "name": "hapijs-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

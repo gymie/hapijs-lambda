@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "hapijs-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1aa02zp34lw9q"
+s3_prefix = "hapijs-lambda"
+region = "ap-southeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HapiFunction=319450934564.dkr.ecr.ap-southeast-1.amazonaws.com/hapijslambda103dd65e/hapifunction60c89685repo"]
