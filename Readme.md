@@ -17,16 +17,19 @@
 
 ![sam build](images/hapijs-lambda-build.png)
 
-2. Then SAM Deploy (for the first time run with --guieded)
+2. Then SAM Deploy (for the first time run with --guided)
 
 ```
     sam deploy --guided
 ```
 
 ![sam deploy](images/hapijs-lambda.png)
+![sam resources](images/hapijs-lambda-resource-creating.png)
 
 3. Then get the output url endpoint value
+
    ![sam output](images/hapijs-lambda-output.png)
 
 4. test end point
+
    ![sam test](images/hapijs-lambda-test.png)
